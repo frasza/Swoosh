@@ -8,13 +8,17 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class WelcomeViewController: UIViewController {
 
     @IBOutlet weak var swoosh: UIImageView!
     @IBOutlet weak var background: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+    }
+    
+    @IBAction func unwindFromLeagueVC(unwindSegue: UIStoryboardSegue) {
         
     }
 
